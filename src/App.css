@@ -1,0 +1,68 @@
+.cover{
+border-radius: 20px;
+height: 850px;
+background: rgba(134, 130, 108, 0.63);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(190, 182, 182, 0.1);
+backdrop-filter: blur(3.7px);
+overflow-y: scroll;
+overflow-x: hidden;
+}
+.container{
+  width:1500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container1 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  height:700px;
+}
+@media(max-width:500px){
+    .container{
+      overflow-x:scroll;
+      scroll-behavior: smooth;
+      display:flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      
+    }
+}
+.App{
+  position: fixed;
+
+}
+.bg-body-tertiary{
+  position: sticky;
+  top: 0;
+}
+.bar{
+  position: sticky;
+  top:0;
+  z-index: +1;
+}
+.logo{
+  transition: transform .2s;
+  cursor: pointer;
+}
+.logo:hover{
+
+transform:scale(1.2);
+}
+.deliver img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+  width:90%;
+  height:70%;
+  border-radius: 10px;
+}
+.name{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Brush Script MT", cursive; font-size: 40px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+}

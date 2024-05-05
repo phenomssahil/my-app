@@ -1,0 +1,20 @@
+[
+    {
+      "image": "https://housing.com/news/wp-content/uploads/2022/11/cafe-design-compressed-1.jpg",
+      "title": "",
+      "subTitle": "",
+      "interval": 500
+    },
+    {
+      "image": "https://offloadmedia.feverup.com/secretnyc.co/wp-content/uploads/2022/01/25072620/Screenshot-2023-04-07-at-9.17.06-AM-1.png",
+      "title": "",
+      "subTitle": "",
+      "interval": 1000
+    },
+    {
+      "image": "https://danielfooddiary.com/wp-content/uploads/2022/09/Chinatown-Singapore-cafes--scaled.jpg",
+      "title": "",
+      "subTitle": "",   
+         "interval": 1500
+    }
+  ]

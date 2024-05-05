@@ -1,0 +1,18 @@
+.carousel .carousel-indicators button {
+    width: 0px;
+    height: 0px;
+    margin-bottom: 0px;
+    z-index: 1;
+
+}
+
+.carousel .carousel-control-next-icon.changed {
+    background-image: url("./arrow-right-solid.svg");
+    z-index: 1;
+}
+.pic{
+    width: 100%;
+    height: 600px;
+    border-radius: 20px;
+    padding: 30px;
+}
